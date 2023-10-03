@@ -1,6 +1,6 @@
 public class Rentadora extends Electrodomestic {
-    private String revolucions;
-    private String soroll;
+    public String revolucions;
+    public String soroll;
 
     public Rentadora() {}
 

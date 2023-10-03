@@ -1,9 +1,9 @@
 public abstract class Electrodomestic {
-    private String nom;
-    private String color;
-    private int preu;
-    private String marca;
-    private String eficiencia;
+    public String nom;
+    public String color;
+    public int preu;
+    public String marca;
+    public String eficiencia;
 
     public Electrodomestic() {}
 

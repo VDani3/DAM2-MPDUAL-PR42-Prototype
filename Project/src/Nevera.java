@@ -1,6 +1,6 @@
 public class Nevera extends Electrodomestic {
-    private int frigories;
-    private String soroll;
+    public int frigories;
+    public String soroll;
 
     public Nevera(){};
 
