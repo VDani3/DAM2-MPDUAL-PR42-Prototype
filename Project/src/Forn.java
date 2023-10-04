@@ -19,7 +19,7 @@ public class Forn extends Electrodomestic {
 
     @Override
     public boolean equals(Object object2) {
-        if (!(object2 instanceof Electrodomestic) || object2 instanceof Forn) return false;
+        if (!(object2 instanceof Electrodomestic) || !(object2 instanceof Forn)) return false;
         Forn cast2 = (Forn) object2;
         return cast2.nom.equals(nom) && cast2.color.equals(color) && cast2.preu == preu && cast2.marca.equals(marca) && cast2.eficiencia.equals(eficiencia) && cast2.temperatura == temperatura && cast2.autoneteja == autoneteja;
     }

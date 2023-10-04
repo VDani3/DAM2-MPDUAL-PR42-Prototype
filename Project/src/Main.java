@@ -68,7 +68,6 @@ public class Main {
     }
 
     static void compare (int i, Electrodomestic a, Electrodomestic b) {
-        System.out.println(a.nom+"         "+ b.nom);
         if (a == b) {
             System.out.println(i + ": Els Electrodomestics són el mateix objecte");
         } else {
